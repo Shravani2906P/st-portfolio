@@ -45,11 +45,85 @@
     </header>
     <main>
       <section class="hero container">
-        <img class="hero__img" src="./public/profile1.jpeg" alt="Profile Picture">
-        <h2 class="hero__subtitle">Hi, I'm Shravani! 👋🏻</h2>
-        <h1 class="hero__title">Front-End Web Developer</h1>
-        <p class="hero__description">Passionate about creating responsive and user-friendly websites.</p>
+        <div>
+        <img class="hero__img" src="./public/profile2.jpeg" alt="Profile Picture">
+        </div>
+        <div class="hero__content">
+        <h1 class="hero__title">Hi, I'm Shravani! 👋🏻</h1>
+        <h2 class="hero__subtitle">Front-End Web Developer</h2>
+        <p class="hero__description"> A <strong>Front-End Web Developer</strong> who enjoys building 
+                                     <strong>responsive</strong>, user-friendly web interfaces with a focus on
+                                     clean design and smooth user experience.
+        </p>
         <a class="hero__btn btn" href="#">Get in Touch</a>
+        </div>
+      </section>
+
+      <section class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About Me</h2>
+          <p class="about__description">
+            I’m a <strong>Front-End Web Developer</strong> who enjoys building clean, responsive, and
+            user-friendly web experiences.
+          </p>
+          <p class="about__description">
+            I focus on writing maintainable code, paying attention to design details,
+            and continuously improving my skills through hands-on projects.
+          </p>
+          <hr class="about__hr">
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+          <ul class="about__ul">
+            <li class="about__list">HTML</li>
+            <li class="about__list">CSS</li>
+            <li class="about__list">JavaScript (ES6+)</li>
+            <li class="about__list">TypeScript</li>
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">React</li>
+            <li class="about__list">TailwindCSS</li>
+            <li class="about__list">Git & GitHub</li>
+            <li class="about__list">React Native</li>
+          </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects container section">
+        <h2 class="projects__title">My Projects</h2>
+        <div id="projects-grid" class="projects__grid"></div>
+      </section>
+
+      <section class="featured container section">
+        <h3 class="featured__subtitle">Featured Projects</h3>
+        <div class="featured__wrapper">
+        <h2 class="featured__title">My Projects</h2>
+        <a class="featured__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+           <path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        </div>
+        <p class="featured__description">Here are some of my recent projects. I've focused on creating responsive, user-friendly interfaces with clean design and smooth interactions.</p>
+        <div>
+          <h3 class="featured__label">Tech Stack</h3>
+          <ul class="featured__techstack">
+            <li class="featured__info">TailwindCSS</li>
+            <li class="featured__info">React</li>
+            <li class="featured__info">JavaScript</li>
+            <li class="featured__info">HTML</li>
+            <li class="featured__info">CSS</li>
+            <li class="featured__info">Git & GitHub</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="featured__label">Project Type</h3>
+          <p class="featured__info">Frontend Development</p>
+        </div>
+        <div>
+          <h3 class="featured__label">Timeline</h3>
+          <p class="featured__info">2023 - Present</p>
+        </div>
       </section>
     </main>
     <!-- <footer></footer> -->

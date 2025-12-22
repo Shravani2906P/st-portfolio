@@ -6,18 +6,27 @@
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    min-height: 60vh;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .hero__img {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
+    object-fit: cover;
 }   
 
 .hero__subtitle {
     color: var(--clr-slate600);
     font-size: var(--size--base);
-    line-height: 0.9;
+    line-height: 1;
 }
 
 .hero__title {
@@ -25,7 +34,7 @@
     text-transform: uppercase;
     font-size: var(--size--4xl);
     letter-spacing: -0.02em;
-    line-height: 0.9;
+    line-height: 1;
 }
 
 .hero__description {
@@ -35,6 +44,101 @@
 }
 
 .hero__btn {
+    margin-top: 1rem;
     text-transform: capitalize;
     font-size: var(--size--sm);
 }
+
+
+/* xs */
+@media (min-width: 475px) {
+    .hero {
+    gap: 1.5rem;
+}
+
+.hero__img {
+    width: 6.5rem;
+    height: 6.5rem;
+    object-fit: cover;
+}   
+
+.hero__subtitle {
+    font-size: var(--size--lg);
+}
+
+.hero__title {
+    font-size: var(--size--5xl);
+}
+
+.hero__description {
+    font-size: var(--size--base);
+}
+
+.hero__btn {
+    font-size: var(--size--base);
+}
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+    
+} */
+
+/* md */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .hero__content {
+    align-items: flex-start;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero__img {
+    width: 13rem;
+    height: 13rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+.hero__subtitle {
+    font-size: var(--size--2xl);
+}
+
+.hero__title {
+    font-size: var(--size--7xl);
+}
+
+.hero__description {
+    font-size: var(--size--lg);
+}
+
+.hero__btn {
+    font-size: var(--size--lg);
+}
+
+.hero__img {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+.hero {
+    gap: 2rem;
+}
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+    
+} */

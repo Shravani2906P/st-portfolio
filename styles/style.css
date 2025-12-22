@@ -1,11 +1,13 @@
 :root {
     /* Base */
     --clr-dark: #1c1c1c;
-    --clr-light: #f7f8fa;
-    --clr-slate400: #94a3b8;
+    --clr-bg: #faf9f7;
+    --clr-light: #faf9f7;
+    --clr-slate400: #acafb4;
     --clr-slate600: #475569;
     --clr-slate800: #020617;
     --clr-rose: #e11d48;
+    /* --clr-rose: #e0ab38; */
     --clr-indigo: #4f46e5;      
     
     
@@ -46,7 +48,7 @@ html {
 
 body {
     font-family: 'General Sans', sans-serif;
-    background-color: var(--clr-light);
+    background-color: var(--clr-bg);
     color: var(--clr-dark);
 }
 
