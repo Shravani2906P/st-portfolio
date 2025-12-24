@@ -17,22 +17,4 @@ export const projects = [
         github: "https://github.com/Shravani2906P/st-portfolio",
         live: "https://shravaniportfolio-drab.vercel.app/"
   },
-{
-        title: "FeedForward App",
-        image: "/eg.avif",
-        tech: ["React Native", "Node.js", "CSS", "Geomapping"],
-        description:
-            "A mobile app that allows users to share feedback anonymously.",
-        github: "https://example.com",
-        live: "https://example.com"
-  },
-  {
-        title: "Resume Builder App",
-        image: "/eg.avif",
-        tech: ["React", "Node.js", "CSS","React", "TailwindCss"],
-        description:
-          "A full-stack resume management app with ATS tracking.",
-        github: "https://example.com",
-        live: "https://example.com"
-  },
 ]
