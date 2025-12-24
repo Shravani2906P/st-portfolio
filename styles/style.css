@@ -7,8 +7,8 @@
     --clr-slate600: #475569;
     --clr-slate800: #020617;
     --clr-rose: #e11d48;
-    /* --clr-rose: #e0ab38; */
-    --clr-indigo: #4f46e5;      
+    --clr-indigo: #60a5fa; 
+    --clr-card:#faf9f7;     
     
     
     /* Sizes */
@@ -38,13 +38,15 @@ html {
     scroll-behavior: smooth;
 }
 
-
-/* .playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+.dark-mode {
+    --clr-dark: #acafb4;
+    --clr-bg: #1c1c1c;
+    --clr-light: #1b1b1d;
+    --clr-slate400: #454648;
+    --clr-slate600: #acafb4;
+    --clr-slate800: #acafb4;
+    --clr-card: #2c2c2e;
+}
 
 body {
     font-family: 'General Sans', sans-serif;

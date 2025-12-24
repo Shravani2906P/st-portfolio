@@ -4,6 +4,8 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    position: relative;
+    z-index: 9999;
 }
 
 .header__menu {
@@ -11,7 +13,7 @@
 }
 
 .header__bars {
-    color: var(--clr--dark);
+    color: var(--clr-dark);
     width: var(--size--2xl);
     height: var(--size--2xl);
     display: block;

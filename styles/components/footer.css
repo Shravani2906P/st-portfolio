@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--clr-dark); */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer__text {
+    color: var(--clr-slate400);
+    font-size: var(--size--sm);
+    user-select: none;
+}
+.footer__links {
+    margin-top: 10px;
+}

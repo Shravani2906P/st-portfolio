@@ -23,6 +23,13 @@
     object-fit: cover;
 }   
 
+.hero__img:hover {
+    transform: scale(1.05)
+               translateY(-5px);
+    transition: transform 0.5s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.859);
+}
+
 .hero__subtitle {
     color: var(--clr-slate600);
     font-size: var(--size--base);
