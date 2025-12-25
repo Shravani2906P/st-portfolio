@@ -9,6 +9,15 @@ export const projects = [
         live: "https://example.com"
   },
   {
+        title: "Resumify",
+        image: "/resumify.png",
+        tech: ["React","Vite", "HTML", "CSS","Javascript","JSpdf"],
+        description:
+          "Build a theme toggle basic Portfolio Website using Vite framework.",
+        github: "https://github.com/Shravani2906P/st-portfolio",
+        live: "https://shravaniportfolio-drab.vercel.app/"
+  },
+  {
         title: "Portfolio Website",
         image: "/portfolio.png",
         tech: ["Vite", "HTML", "CSS","Javascript"],
