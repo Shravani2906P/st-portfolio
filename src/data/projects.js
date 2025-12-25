@@ -15,7 +15,7 @@ export const projects = [
         description:
           "Build a theme toggle basic Portfolio Website using Vite framework.",
         github: "https://github.com/Shravani2906P/Resume-builder",
-        live: "https://shravani2906p.github.io/"
+        live: "https://shravani2906p.github.io/Resume-builder/"
   },
   {
         title: "Portfolio Website",
