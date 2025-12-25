@@ -14,8 +14,8 @@ export const projects = [
         tech: ["React","Vite", "HTML", "CSS","Javascript","JSpdf"],
         description:
           "Build a theme toggle basic Portfolio Website using Vite framework.",
-        github: "https://github.com/Shravani2906P/st-portfolio",
-        live: "https://shravaniportfolio-drab.vercel.app/"
+        github: "https://github.com/Shravani2906P/Resume-builder",
+        live: "https://shravani2906p.github.io/"
   },
   {
         title: "Portfolio Website",
