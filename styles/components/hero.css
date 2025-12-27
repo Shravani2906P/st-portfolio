@@ -23,6 +23,7 @@
     object-fit: cover;
 }   
 
+
 .hero__img:hover {
     transform: scale(1.05)
                translateY(-5px);

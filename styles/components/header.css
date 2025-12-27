@@ -64,6 +64,22 @@
     height: var(--size--base);
 }
 
+.icon-sun {
+    display: block;
+}
+
+.icon-moon {
+    display: none;
+}
+
+body.dark-mode .icon-sun {
+  display: none;
+}
+
+body.dark-mode .icon-moon {
+  display: block;
+}
+
 .header__resume {
     font-size: var(--size--xs);
 }
