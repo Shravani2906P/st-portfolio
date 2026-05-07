@@ -3,7 +3,8 @@ import '../styles/style.css'
 import '../styles/components/header.css'
 import '../styles/components/hero.css'
 import '../styles/components/about.css'
-import '../styles/components/featured.css'
+import '../styles/components/skills.css'
+import initStarfield from "../styles/components/starfield";
 
 import "./components/project-card.css";
 import "./components/projects.css";
@@ -21,6 +22,8 @@ import '../styles/utils.css'
 
 import mobileNav from './components/mobile-nav';
 import darkMode from './components/dark-mode'
+
+initStarfield();
 
 const projectsGrid = document.getElementById("projects-grid");
 

@@ -37,6 +37,25 @@ html {
     scroll-behavior: smooth;
 }
 
+#bg-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  background: #0a0a0a;
+}
+
+/* keep content above canvas */
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+
+
+
 .dark-mode {
     --clr-dark: #1c1c1c;
     --clr-bg: #faf9f7;

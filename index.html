@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,15 @@
     <title>Shravani</title>
   </head>
   <body>
+    <canvas id="bg-canvas"></canvas>
     <header class="header container">
       <nav>
         <ul class="header__menu">
           <li>
             <a class="header__link" href="#about" class="logo">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#skills">Skills</a>
           </li>
           <li>
             <a class="header__link" href="#projects">Projects</a>
@@ -89,64 +93,131 @@
     <main>
       <section class="hero container">
         <div>
-        <img class="hero__img" src="/profile2.jpeg" alt="Profile Picture">
+        <img class="hero__img" src="/profile3.jpeg" alt="Profile Picture">
         </div>
         <div class="hero__content">
         <h1 class="hero__title">Hi, I'm Shravani! 👋🏻</h1>
-        <h2 class="hero__subtitle">Front-End Web Developer</h2>
-        <p class="hero__description"> A <strong>Front-End Web Developer</strong> who enjoys building 
-                                     <strong>responsive</strong>, user-friendly web interfaces with a focus on
-                                     clean design and smooth user experience.
+        <h2 class="hero__subtitle">Web developer | App developer | ML Enthusiast</h2>
+        <p class="hero__description"> <strong>Web & App Developer</strong> crafting modern digital experiences while
+           exploring <strong>AI/ML</strong> innovations.
         </p>
         <a class="hero__btn btn" href="#">Get in Touch</a>
         </div>
       </section>
 
+      <!-- About Section -->
       <section id="about" class="about container section">
         <div class="about__content">
           <h2 class="about__title">About Me</h2>
           <p class="about__description">
-            I’m a <strong>Front-End Web Developer</strong> who enjoys building clean, responsive, and
-            user-friendly web experiences.
+            <strong>Software Developer</strong> with 2+ years of experience in building scalable , responsive, 
+            user-friendly web applications using <strong>React, JavaScript, HTML, CSS, and Tailwind CSS</strong>
+            <br>
+            Possesses a solid foundation in data structures and problem-solving, while actively
+            exploring <strong>AI/ML </strong>concepts and continuously expanding technical skills through hands-on 
+            projects and learning.
           </p>
           <p class="about__description">
             I focus on writing maintainable code, paying attention to design details,
             and continuously improving my skills through hands-on projects.
           </p>
           <hr class="about__hr">
-          <h3 class="about__subtitle">Technologies</h3>
-          <div class="about__ul-container">
-          <ul class="about__ul">
-            <li class="about__list">HTML</li>
-            <li class="about__list">CSS</li>
-            <li class="about__list">JavaScript (ES6+)</li>
-            <li class="about__list">TypeScript</li>
-          </ul>
-          <ul class="about__ul">
-            <li class="about__list">React</li>
-            <li class="about__list">TailwindCSS</li>
-            <li class="about__list">Git & GitHub</li>
-            <li class="about__list">React Native</li>
-          </ul>
-          </div>
         </div>
       </section>
 
+      <!-- Skills Section -->
+       <section id="skills" class="skills container section">
+         <div class="skills__content">
+           <h2 class="skills__title">Skills & Technologies</h2>
+           <div class="skills__line"></div>
+         </div>
+       
+         <div class="skills__grid">
+       
+           <!-- Languages -->
+           <div class="skills__card">
+             <div class="skills__card-icon language">
+               &lt;/&gt;
+             </div>
+       
+             <h3 class="skills__card-title language-text">Languages</h3>
+       
+             <div class="skills__tags">
+               <span>JavaScript</span>
+               <span>TypeScript</span>
+               <span>C++</span>
+             </div>
+           </div>
+       
+           <!-- Frontend -->
+           <div class="skills__card">
+             <div class="skills__card-icon frontend">
+               🌐
+             </div>
+       
+             <h3 class="skills__card-title frontend-text">Frontend</h3>
+       
+             <div class="skills__tags">
+               <span>HTML</span>
+               <span>CSS</span>
+               <span>React</span>
+               <span>TailwindCSS</span>
+             </div>
+           </div>
+       
+           <!-- Backend -->
+           <div class="skills__card">
+             <div class="skills__card-icon backend">
+               ⚙️
+             </div>
+       
+             <h3 class="skills__card-title backend-text">Backend</h3>
+       
+             <div class="skills__tags">
+               <span>Node.js</span>
+               <span>Express</span>
+               <span>REST APIs</span>
+               <span>MongoDB</span>
+             </div>
+           </div>
+       
+         </div>
+       </section>
+
+      <!-- Projects Section -->
       <section id="projects" class="projects container section">
         <div class="projects__content">
         <h2 class="projects__title">My Projects</h2>
         <p class="projects__description">Here are some of my recent projects. I've focused on creating <strong>responsive, user-friendly</strong> interfaces with clean design and smooth interactions.</p>
         </div>
         <div id="projects-grid" class="projects__grid"></div>
+        <div class="projects__more">
+          <a 
+            href="https://github.com/Shravani2906P" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="projects__more-btn"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.1-1.6-1.1-1.6-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0C17.8 6 18.7 6.3 18.7 6.3c.6 1.5.2 2.7.1 3 .8.9 1.2 2 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.3.8 1 .8 2v3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/>
+            </svg>
+        
+            <span>View more projects on GitHub</span>
+        
+            <svg viewBox="0 0 24 24" fill="currentColor" class="projects__arrow">
+              <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3ZM5 5h5V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5H5V5Z"/>
+            </svg>
+          </a>
+        </div>
       </section>
 
       <section id="contact" class="contact container section">
         <div class="contact__content">
           <h2 class="contact__title">Contact Me</h2>
           <p class="contact__description">
-              Whether you have a question or just want to say hi, 
-              my inbox is always open so feel free to reach out 
-              and I'll get back to you as soon as possible.
+            Let’s Build Something Together<br>
+            Passionate about crafting clean interfaces, smooth user experiences, 
+            and responsive web applications.
           </p>
         </div>
         <div class="contact__wrapper">
@@ -260,6 +331,17 @@
 
         </div>
     </footer>
+  
     <script type="module" src="./src/main.js"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    lucide.createIcons();
+  });
+</script>
+
+
   </body>
 </html>

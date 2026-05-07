@@ -1,8 +1,42 @@
 
-
 .projects__grid {
   padding: 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
+
+/* xs */
+@media (min-width: 475px) {
+
+    .projects__title {
+        font-size: var(--size--3xl);
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+    
+} */
+
+
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .projects__title {
+        font-size: var(--size--4xl);
+    }
+
+}
+
+
+/* xl */
+@media (min-width: 1280px) {
+
+    .projects__title {
+        font-size: var(--size--5xl);
+    }
+
+}
+

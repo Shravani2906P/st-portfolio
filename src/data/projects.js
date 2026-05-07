@@ -6,7 +6,7 @@ export const projects = [
         description:
             "A mobile app that allows users to share feedback anonymously.",
         github: "https://github.com/Shravani2906P/feedforward",
-        live: "https://example.com"
+        live: "https://github.com/Shravani2906P/feedforward"
   },
   {
         title: "Resumify",
